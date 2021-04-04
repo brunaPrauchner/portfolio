@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar" role="navigation">
       <div className="leftside">
-      <Link to="/"><img className="img-logo" src={LogoFox} alt="home" /></Link>
+      <Link to="/portifolio"><img className="img-logo" src={LogoFox} alt="home" /></Link>
       </div>
       <ul className="rightside">
       <li> <Link to="about" >About</Link></li>
