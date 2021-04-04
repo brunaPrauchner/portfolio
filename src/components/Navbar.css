@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  background: hsl(206, 27%, 49%);
+}
+
+.leftside {
+  display: flex;
+  align-items: center;
+}
+
+.img-logo {
+  height: 45px;
+  width: 45px;
+  padding-left: 20px;
+}
+
+.rightside {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+
+.rightside li a {
+  text-decoration: none;
+  color: white;
+  padding: 1em 1em 0.8em;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.rightside li a:hover {
+	background: hsl(206, 27%, 70%);
+}

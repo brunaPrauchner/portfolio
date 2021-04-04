@@ -1,0 +1,43 @@
+.text-op {
+  padding-left: 30px;
+  margin-bottom: 0px;
+}
+
+.Rtable {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 3em 0;
+  padding: 0;
+  text-align: center;
+}
+
+.Rtable-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0.8em 1.2em;
+  overflow: hidden;
+  list-style: none;
+
+}
+
+.columname {
+  font-family: 'Noto Serif JP';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 43px;
+  color: #D35563;
+}
+
+.rowtext {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 43px;
+  color: #1a1a1a;
+}
+
+.Rtable--4cols>.Rtable-cell {
+  width: 25%;
+}

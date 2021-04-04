@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.itemleft0 {
+  height: 100px;
+  max-width: 450px;
+
+  padding-top: 70px;
+  padding-bottom: 0px;
+  padding-left: 90px;
+
+  font-family: "Noto Serif JP";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+.itemleft1 {
+  height: 50px;
+  max-width: 380px;
+  padding-left: 125px;
+  margin: 0px;
+
+  font-family: "Noto Serif JP";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+.itemleft2 {
+  height: 100px;
+  max-width: 600px;
+
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 25px;
+  text-align: center;
+}
+
+.textbio {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  color: #5A819E;
+}
+.name {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 96px;
+  color: #D35563;
+}
+
+.button-resume{
+  width: 250px;
+  height: 70px;
+  border: none;
+  border-radius: 58px;
+  margin-left: 200px;
+  text-align:center;
+
+  background: #5A819E;
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 43px;
+  outline: none;
+  color: #FFFFFF;
+  transition-duration: 0.4s;
+}
+.button-resume:hover {
+  background-color: hsl(206, 27%, 60%); /* Green */
+  color: white;
+}
+
+
+.container-right {
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-top: 20px;
+  margin: 40px;
+}
+
+.imgBruna {
+  max-width: 400px;
+}
+
+.bt-icon{
+  padding-left: 10px;
+
+}

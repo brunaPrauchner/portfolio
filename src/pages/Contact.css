@@ -1,0 +1,49 @@
+@media screen and (min-width: 30em) {
+  .contact-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .containertop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-flex p {
+    width: 600px;
+    padding-bottom: 30px;
+    color: #D35563;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #D35563;
+}
+
+.icon {
+  font-size: 45px;
+  color: black;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+.linkslist{
+  display: flex;
+  flex-direction: column;
+    text-align: center;
+}
+.linkslist li{
+  text-decoration: none;
+  background: greenyellow;
+ 
+}
+.centertext{
+  align-self: baseline;
+}

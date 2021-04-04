@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 96px;
+  color: #D35563;
+}
+
+h3 {
+  font-family: "Noto Serif JP";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 101px;
+  color: #5A819E;
+}
+
+h4 {
+  font-family: "Noto Serif JP";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+h5 {
+  font-family: "Noto Serif JP";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 57px;
+  color: #5A819E;
+}
+
+p {
+  font-family: "Noto Serif JP";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 43px;
+
+  color: #1a1a1a;
+}

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/brunaPrauchner.github.io/static/css/main.f53b715b.chunk.css",
+    "main.js": "/brunaPrauchner.github.io/static/js/main.bf6fc718.chunk.js",
+    "main.js.map": "/brunaPrauchner.github.io/static/js/main.bf6fc718.chunk.js.map",
+    "runtime-main.js": "/brunaPrauchner.github.io/static/js/runtime-main.c08c7240.js",
+    "runtime-main.js.map": "/brunaPrauchner.github.io/static/js/runtime-main.c08c7240.js.map",
+    "static/js/2.d0789114.chunk.js": "/brunaPrauchner.github.io/static/js/2.d0789114.chunk.js",
+    "static/js/2.d0789114.chunk.js.map": "/brunaPrauchner.github.io/static/js/2.d0789114.chunk.js.map",
+    "index.html": "/brunaPrauchner.github.io/index.html",
+    "static/css/main.f53b715b.chunk.css.map": "/brunaPrauchner.github.io/static/css/main.f53b715b.chunk.css.map",
+    "static/js/2.d0789114.chunk.js.LICENSE.txt": "/brunaPrauchner.github.io/static/js/2.d0789114.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/brunaPrauchner.github.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c08c7240.js",
+    "static/js/2.d0789114.chunk.js",
+    "static/css/main.f53b715b.chunk.css",
+    "static/js/main.bf6fc718.chunk.js"
+  ]
+}

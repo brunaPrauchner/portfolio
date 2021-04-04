@@ -1,0 +1,18 @@
+.container-project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.format-desc{
+
+ 
+    max-width: 600px;
+}
+.format-img{
+    width:400px;
+}
+h5{
+    padding-left: 30px;
+    margin-bottom: 0px;
+}
