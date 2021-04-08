@@ -1,18 +1,21 @@
-.container-project{
+.container-project {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
-.format-desc{
 
- 
+.format-desc {
+    margin-bottom: 70px;
     max-width: 600px;
 }
-.format-img{
-    width:400px;
+
+.format-img {
+    width: 350px;
 }
-h5{
-    padding-left: 30px;
+
+.format-title {
+    margin-top: 0px;
     margin-bottom: 0px;
+    text-align: center;
 }

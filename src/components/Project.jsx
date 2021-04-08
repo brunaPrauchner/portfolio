@@ -3,13 +3,13 @@ import './Project.css';
 const Project = ({ title, desc, img }) => {
 
   return (
-    <>
-    <h5>{title}</h5>
     <div className='container-project'>
-      <p className='format-desc'>{desc}</p>
-      <img src={img} className='format-img'/>
+      <div>
+        <h5 className='format-title'>{title}</h5>
+        <p className='format-desc'>{desc}</p>
+      </div>
+      <img src={img} className='format-img' />
     </div>
-    </>
   )
 }
 

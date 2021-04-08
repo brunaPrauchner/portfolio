@@ -1,22 +1,17 @@
-.container-about {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+.format-h3{
+  padding-left: 50px;
 }
-
 .container-top {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-left: 30px;
-  margin-bottom: 0px;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .itemtop {
-  display: inline-block;
-  padding-left: 50px;
-  max-width: 990px;
-
+max-width: 800px;
+}
+.format-img {
+  width: 350px;
 }
 
 .container-middle {
@@ -30,16 +25,6 @@
 
 }
 
-.container-bottom {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+.format-h5{
   padding-left: 30px;
-  margin-bottom: 0px;
-}
-
-.itembottom {
-  display: inline-block;
-  padding-left: 50px;
-  max-width: 990px;
 }

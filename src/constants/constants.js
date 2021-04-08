@@ -1,16 +1,11 @@
 export const TEXT = {
     HM1: 'I’m a software engineer who leads projects from research to implementation. I combine empathy, business strategy and design to create exceptional user',
-    ABT1: 'I’m Bruna Prauchner, 23. \nBorn in etiam augue luctus. My major is Computer Science, love IA urna fames mi eu fusce. Work in aurna fames mi eu fusce volutpat eros lorem ac nunc. At placerat urna fames mi eu fusce malesuada sem sodales fames, bibendum suspendisse eget non.', 
-    ABT2: `Dapibus ad etiam augue luctus, dictumst nisl dolor cras donec scelerisque
-    aliquam luctus inceptos.  Elementum himenaeos risus dictumst fames libero.
-    Lorem ipsum lacinia vehicula leo in id, volutpat eros lorem ac nunc.
-    At placerat urna fames mi eu fusce malesuada sem sodales fames,
-    bibendum suspendisse eget non.`,
-    ABT3: `My Experience at Dell Dapibus ad etiam augue luctus, dictumst nisl dolor cras donec scelerisque
-    aliquam luctus inceptos.  Elementum himenaeos risus dictumst fames libero.
-    Lorem ipsum lacinia vehicula leo in id, volutpat eros lorem ac nunc.
-    At placerat urna fames mi eu fusce malesuada sem sodales fames,
-    bibendum suspendisse eget non.`,
+    ABT1: 'I’m Bruna Prauchner, 23. Born in Porto Alegre (Brazil) and raised in a small town called Eldorado do Sul, I had the opportunity to live in Porto Alegre for a few years to study Computer Science at PUCRS one the 20 best Latin American universities in international ranking.', 
+    ABT2: `At the beginning of university I wanted to study english abroad to enhance my communication skills thus I went to Australia. I arrived on the other side of the world completely alone that made me realize everyday has a surprise it can be good or bad we have to know how to deal with both sides of the coin. Going out of your comfort zone is an addictive feeling and to put that in practice when I came back I decided to do volunteer work, thenceforth I'm addicted to experiences that can broaden my horizons.`,
+    ABT3: `In the end of uni I had the opportunity to be the speaker of the graduation ceremony, all i wanted to do was to touch the heart and the soul of everyone that was there. I was nervous, obviously but when i looked at two thousand people waiting for my words to come out I knew that I shouldn't throw away this opportunity because I was nervous I tried to do my best and you can check the speech here.`,
+    ABT4: `Beyond everything, I like to talk, to listen, to express my feelings, I like poetry, reading, yoga, hiking but PERHAPS that's only 7% of everything I'am.`,
+    ABT5: 'I’m a very fan of reading so I prepare a book`s list with my favorites that you can check here.', 
+    
     CI1: 'Toastmasters International is a nonprofit educational organization that teaches public speaking and leadership skills through practice, peer feedback and objective evaluation. My chosen path is Persuasive Influence that helps to build skills as an innovative communicator and leader. Focusing on how to negotiate a positive outcome together with building strong interpersonal communication and public speaking skills, each project emphasizes developing leadership skills to use in complex situations, as well as creating innovative solutions to challenges. You can check each project here.', 
     CI2: 'A group to study for technical interviews in IT. In partnership with Brazilians in Tech platform we can provide sessions for a small group of people to do teory review and then practice common code challenges and problems used in interviews.', 
     CI3: 'Using art and the clown figure we went to the hospitals every week aiming to make this environment a happier place, contributing positively to the humanization of hospitals.',

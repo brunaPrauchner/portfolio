@@ -1,6 +1,6 @@
 import './Navbar.css';
 import LogoFox from './logo-redondo.png';
-import { Link, Outlet, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (

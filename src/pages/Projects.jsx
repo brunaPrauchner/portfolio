@@ -1,9 +1,9 @@
 import React from "react";
 import { TEXT } from '../constants/constants'
 import Project from '../components/Project';
-import LogoG from './logoG.png';
-import LogoS from './suncloud.jpg';
-import LogoGF from './girafas.jpg';
+import LogoG from './gina1c.png';
+import LogoS from './weat1.png';
+import LogoGF from './gira1.png';
 import './Projects.css'
 
 function Projects() {
