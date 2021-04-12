@@ -23,9 +23,10 @@ function About() {
           {TEXT.ABT2}<br />
           {TEXT.ABT3}<br />
           {TEXT.ABT4}<br />
-          {TEXT.ABT5}
+          {TEXT.ABT5}<br />
+          {TEXT.ABT6}
         </p>
-        <img src={Bru4} className='format-img' />
+        <img src={Bru3} className='format-img' />
       </div>
 
       <h5 className="container-middle">Tech Skills</h5>

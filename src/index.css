@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,7 +14,7 @@ code {
 }
 
 h1 {
-  font-family: "Dancing Script";
+  font-family: 'Dancing Script', cursive;;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
