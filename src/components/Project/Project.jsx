@@ -1,7 +1,6 @@
 import './Project.css';
 
 const Project = ({ title, desc, img }) => {
-
   return (
     <div className='container-project'>
       <div>
@@ -12,5 +11,4 @@ const Project = ({ title, desc, img }) => {
     </div>
   )
 }
-
 export default Project;

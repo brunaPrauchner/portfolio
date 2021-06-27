@@ -1,16 +1,11 @@
-import React from "react";
-import { TEXT } from '../constants/constants'
-import Table from '../components/Table';
-import CommInvProject from '../components/CommInvProject'
-import Tm from './tm.png';
-import Biti from './biti.png';
-import Dout from './douttt.png';
-import Bru1 from './bru1.png';
-import Bru2 from './bru2.png';
-import Bru3 from './bru3.png';
-import Bru4 from './bru4.png';
-import { Link, Outlet, useLocation } from "react-router-dom";
+import { TEXT } from '../../constants/constants'
+import Bru from '../../assets/images/bru3.png'
+import Tm from '../../assets/images/tm.png'
+import Biti from '../../assets/images/biti.png'
+import Dout from '../../assets/images/douttt.png'
+import CommInvProject from '../../components/CommInvProject/CommInvProject'
 import './About.css'
+
 function About() {
   return (
     <>
@@ -26,12 +21,9 @@ function About() {
           {TEXT.ABT5}<br />
           {TEXT.ABT6}
         </p>
-        <img src={Bru3} className='format-img' />
+        <img src={Bru} className='format-img' />
       </div>
-
       <h5 className="container-middle">Tech Skills</h5>
-      <Table />
-
       <h5 className="format-h5">Community Involvement</h5>
       <CommInvProject desc={TEXT.CI1} img={Tm} />
       <CommInvProject desc={TEXT.CI2} img={Biti} />
