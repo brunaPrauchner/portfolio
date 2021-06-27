@@ -1,7 +1,6 @@
 import './CommInvProject.css';
 
 const CommInvProject = ({ desc, img }) => {
-
   return (
     <div className='container-bottom'>
       <p className='itembottom'>{desc}</p>
