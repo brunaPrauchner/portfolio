@@ -1,4 +1,8 @@
 import { TEXT } from '../../constants/constants'
+import Bru from '../../assets/images/bru3.png'
+import Tm from '../../assets/images/tm.png'
+import Biti from '../../assets/images/biti.png'
+import Dout from '../../assets/images/douttt.png'
 import CommInvProject from '../../components/CommInvProject/CommInvProject'
 import './About.css'
 
@@ -17,13 +21,13 @@ function About() {
           {TEXT.ABT5}<br />
           {TEXT.ABT6}
         </p>
-        <img src='images/bru3.png' className='format-img' />
+        <img src={Bru} className='format-img' />
       </div>
       <h5 className="container-middle">Tech Skills</h5>
       <h5 className="format-h5">Community Involvement</h5>
-      <CommInvProject desc={TEXT.CI1} img='images/tm.png' />
-      <CommInvProject desc={TEXT.CI2} img='images/biti.png' />
-      <CommInvProject desc={TEXT.CI3} img='images/douttt.png' />
+      <CommInvProject desc={TEXT.CI1} img={Tm} />
+      <CommInvProject desc={TEXT.CI2} img={Biti} />
+      <CommInvProject desc={TEXT.CI3} img={Dout} />
     </>
   );
 }

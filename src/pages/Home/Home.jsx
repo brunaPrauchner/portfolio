@@ -1,5 +1,6 @@
 import { AiOutlineFile } from 'react-icons/ai';
 import { TEXT } from '../../constants/constants';
+import Bruna from '../../assets/images/logoBruna.jpeg'
 import './Home.css';
 
 function Home() {
@@ -23,7 +24,7 @@ function Home() {
         </a>
       </div>
       <div className='container-right'>
-        <img className='imgBruna' src='images/logoBruna.jpeg' alt='Bruna Prauchner' />
+        <img className='imgBruna' src={Bruna} alt='Bruna Prauchner' />
       </div>
     </div>
   );
