@@ -2,9 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   background: hsl(206, 27%, 49%);
+  padding: 0 20px;
+  min-height: 60px;
 }
 
-.leftside {
+.left-side {
   display: flex;
   align-items: center;
 }
@@ -12,10 +14,9 @@
 .img-logo {
   height: 45px;
   width: 45px;
-  padding-left: 20px;
 }
 
-.rightside {
+.right-side {
   flex: 1;
   display: flex;
   justify-content: flex-end;
@@ -25,7 +26,7 @@
   align-items: center;
 }
 
-.rightside li a {
+.right-side li a {
   text-decoration: none;
   color: white;
   padding: 1em 1em 0.8em;
@@ -33,6 +34,20 @@
   font-size: 20px;
 }
 
-.rightside li a:hover {
+.right-side li a:hover {
   background: hsl(206, 27%, 70%);
+}
+
+.menu-config {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .menu-config {
+    display: flex;
+  }
+
+  .right-side {
+    display: none;
+  }
 }

@@ -1,0 +1,10 @@
+.MuiList-root {
+    background: hsl(206, 27%, 49%);
+    color: white;
+}
+.MuiButton:hover {
+  background: hsl(206, 27%, 70%) !important;
+}
+.MuiMenuItem-root:hover{
+  background: hsl(206, 27%, 70%) !important; 
+}

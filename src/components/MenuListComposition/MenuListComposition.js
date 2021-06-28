@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
+import { Link } from 'react-router-dom'
 import Button from '@material-ui/core/Button';
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import Grow from '@material-ui/core/Grow';
@@ -8,13 +9,15 @@ import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
 import { makeStyles } from '@material-ui/core/styles';
 import { MdMenu } from "react-icons/md";
+import './MenuListComposition.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
+    
   },
   paper: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(2), 
   },
 }));
 
@@ -60,7 +63,7 @@ export default function MenuListComposition() {
         aria-haspopup="true"
         onClick={handleToggle}
       >
-        <MdMenu size={34} color='white' />
+        <MdMenu size={34} color='white' className='MuiButton' />
       </Button>
       <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
         {({ TransitionProps, placement }) => (
@@ -70,10 +73,11 @@ export default function MenuListComposition() {
           >
             <Paper>
               <ClickAwayListener onClickAway={handleClose}>
-                <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
-                  <MenuItem onClick={handleClose}>About</MenuItem>
-                  <MenuItem onClick={handleClose}>Projects</MenuItem>
-                  <MenuItem onClick={handleClose}>Contact</MenuItem>
+                <MenuList autoFocusItem={open} id="menu-list-grow" 
+                onKeyDown={handleListKeyDown} className="MuiList-root">
+                  <MenuItem onClick={handleClose} className="MuiMenuItem-root" component={Link} to="about">About</MenuItem>
+                  <MenuItem onClick={handleClose} className="MuiMenuItem-root" component={Link} to="projects">Projects</MenuItem>
+                  <MenuItem onClick={handleClose} className="MuiMenuItem-root" component={Link} to="contact">Contact</MenuItem>
                 </MenuList>
               </ClickAwayListener>
             </Paper>
