@@ -1,21 +1,17 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.a5081376.chunk.css",
-    "main.js": "/portifolio/static/js/main.ad6244a4.chunk.js",
-    "main.js.map": "/portifolio/static/js/main.ad6244a4.chunk.js.map",
+    "main.css": "/portifolio/static/css/main.eac06c13.chunk.css",
+    "main.js": "/portifolio/static/js/main.a7c84522.chunk.js",
+    "main.js.map": "/portifolio/static/js/main.a7c84522.chunk.js.map",
     "runtime-main.js": "/portifolio/static/js/runtime-main.e9f765d5.js",
     "runtime-main.js.map": "/portifolio/static/js/runtime-main.e9f765d5.js.map",
-    "static/js/2.e2fabcbe.chunk.js": "/portifolio/static/js/2.e2fabcbe.chunk.js",
-    "static/js/2.e2fabcbe.chunk.js.map": "/portifolio/static/js/2.e2fabcbe.chunk.js.map",
+    "static/js/2.04d4ecd6.chunk.js": "/portifolio/static/js/2.04d4ecd6.chunk.js",
+    "static/js/2.04d4ecd6.chunk.js.map": "/portifolio/static/js/2.04d4ecd6.chunk.js.map",
     "index.html": "/portifolio/index.html",
-    "static/css/main.a5081376.chunk.css.map": "/portifolio/static/css/main.a5081376.chunk.css.map",
-    "static/js/2.e2fabcbe.chunk.js.LICENSE.txt": "/portifolio/static/js/2.e2fabcbe.chunk.js.LICENSE.txt",
-    "static/media/BrunaPrauchner-CV-2021.ef247f9e.pdf": "/portifolio/static/media/BrunaPrauchner-CV-2021.ef247f9e.pdf",
+    "static/css/main.eac06c13.chunk.css.map": "/portifolio/static/css/main.eac06c13.chunk.css.map",
+    "static/js/2.04d4ecd6.chunk.js.LICENSE.txt": "/portifolio/static/js/2.04d4ecd6.chunk.js.LICENSE.txt",
     "static/media/biti.db84441a.png": "/portifolio/static/media/biti.db84441a.png",
-    "static/media/bru1.7fc4e858.png": "/portifolio/static/media/bru1.7fc4e858.png",
-    "static/media/bru2.d4fef3fd.png": "/portifolio/static/media/bru2.d4fef3fd.png",
     "static/media/bru3.78d5eb4c.png": "/portifolio/static/media/bru3.78d5eb4c.png",
-    "static/media/bru4.d477676c.png": "/portifolio/static/media/bru4.d477676c.png",
     "static/media/douttt.7864f06a.png": "/portifolio/static/media/douttt.7864f06a.png",
     "static/media/gina1c.3fb87934.png": "/portifolio/static/media/gina1c.3fb87934.png",
     "static/media/gira1.277740ff.png": "/portifolio/static/media/gira1.277740ff.png",
@@ -26,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e9f765d5.js",
-    "static/js/2.e2fabcbe.chunk.js",
-    "static/css/main.a5081376.chunk.css",
-    "static/js/main.ad6244a4.chunk.js"
+    "static/js/2.04d4ecd6.chunk.js",
+    "static/css/main.eac06c13.chunk.css",
+    "static/js/main.a7c84522.chunk.js"
   ]
 }
