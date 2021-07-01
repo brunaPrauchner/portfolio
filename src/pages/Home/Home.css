@@ -1,63 +1,68 @@
 .container {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap-reverse;
+  justify-content: center;
+  padding: 70px 20px 20px 20px;
 }
 
 .container-left {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  max-width: 50%;
+  padding-right: 30px;
+  align-items: center;
 }
 
-.itemleft1 {
-  height: 100px;
-  max-width: 450px;
-  padding-top: 70px;
-  padding-left: 90px;
-
+.item-left1 {
   font-family: "Noto Serif JP";
   text-align: center;
   font-size: 36px;
 }
-.itemleft2 {
-  height: 220px;
-  text-align:center;
-  max-width: 650px;
-  padding-top: 40px;
-  padding-bottom: 0px;
-  padding-left: 25px;
-  background-color: goldenrod;
+
+.item-left2 {
+  padding: 50px 0 50px 0;
 }
 
-.textbio {
+.item-left3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 420px;
+}
+
+.img-Bruna {
+  width: 400px;
+  height: 400px;
+}
+
+.text-bio {
   font-family: "Noto Sans JP";
-  font-style: normal;
-  font-weight: normal;
   font-size: 24px;
   line-height: 35px;
   color: #5A819E;
 }
+
 .name {
   font-family: "Dancing Script";
-  font-style: normal;
-  font-weight: normal;
   font-size: 50px;
   line-height: 96px;
   color: #D35563;
 }
 
-.button-resume{
+.button-resume {
   width: 250px;
   height: 70px;
   border: none;
   border-radius: 58px;
-  margin-left: 200px;
-  text-align:center;
-
+  cursor: pointer;
   background: #5A819E;
   font-family: "Noto Sans JP";
-  font-style: normal;
   font-weight: 200;
   font-size: 30px;
   line-height: 43px;
@@ -65,23 +70,26 @@
   color: #FFFFFF;
   transition-duration: 0.4s;
 }
+
 .button-resume:hover {
-  background-color: hsl(206, 27%, 60%); /* Green */
+  background-color: hsl(206, 27%, 60%);
   color: white;
 }
 
-
-.container-right {
-  padding-right: 80px;
-  padding-left: 80px;
-  padding-top: 20px;
-  margin: 40px;
-}
-
-.imgBruna {
-  max-width: 400px;
-}
-
-.bt-icon{
+.bt-icon {
   padding-left: 10px;
+}
+
+@media (max-width: 576px) {
+  .img-Bruna {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .item-left2 {
+    width: 250px;
+    text-align: center;
+  }
 }

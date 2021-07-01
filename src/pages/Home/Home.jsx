@@ -1,30 +1,29 @@
-import { AiOutlineFile } from 'react-icons/ai';
-import { TEXT } from '../../constants/constants';
+import { AiOutlineFile } from 'react-icons/ai'
+import { TEXT } from '../../constants/constants'
 import Bruna from '../../assets/images/logoBruna.jpeg'
+import CV from '../../assets/BrunaPrauchner-CV-2021.pdf'
 import './Home.css';
 
 function Home() {
   return (
     <div className='container'>
       <div className='container-left'>
-        <div className='itemleft1'>
+        <div className='item-left1'>
           Hi, I'm <span className='name'>Bruna Prauchner </span>
         </div>
-        <div className='itemleft1'>
+        <div className='item-left1'>
           a computer scientist.
         </div>
-        <div className='itemleft2 textbio'>
+        <div className='item-left2 text-bio'>
           {TEXT.HM1}
         </div>
-        <a href='./BrunaPrauchner-CV-2021.pdf' target='_blank'>
-          <button className='button-resume'>
-            Résumé
-            <AiOutlineFile className='bt-icon' />
-          </button>
-        </a>
+        <button className='button-resume item-left3' onClick={() => window.open(CV, '_blank')}>
+          <span>Résumé</span>
+          <AiOutlineFile className='bt-icon' />
+        </button>
       </div>
       <div className='container-right'>
-        <img className='imgBruna' src={Bruna} alt='Bruna Prauchner' />
+        <img className='img-Bruna' src={Bruna} alt='Bruna Prauchner' />
       </div>
     </div>
   );
