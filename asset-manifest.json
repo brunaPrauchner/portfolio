@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.eac06c13.chunk.css",
-    "main.js": "/portifolio/static/js/main.a7c84522.chunk.js",
-    "main.js.map": "/portifolio/static/js/main.a7c84522.chunk.js.map",
-    "runtime-main.js": "/portifolio/static/js/runtime-main.e9f765d5.js",
-    "runtime-main.js.map": "/portifolio/static/js/runtime-main.e9f765d5.js.map",
-    "static/js/2.04d4ecd6.chunk.js": "/portifolio/static/js/2.04d4ecd6.chunk.js",
-    "static/js/2.04d4ecd6.chunk.js.map": "/portifolio/static/js/2.04d4ecd6.chunk.js.map",
-    "index.html": "/portifolio/index.html",
-    "static/css/main.eac06c13.chunk.css.map": "/portifolio/static/css/main.eac06c13.chunk.css.map",
-    "static/js/2.04d4ecd6.chunk.js.LICENSE.txt": "/portifolio/static/js/2.04d4ecd6.chunk.js.LICENSE.txt",
-    "static/media/biti.db84441a.png": "/portifolio/static/media/biti.db84441a.png",
-    "static/media/bru3.78d5eb4c.png": "/portifolio/static/media/bru3.78d5eb4c.png",
-    "static/media/douttt.7864f06a.png": "/portifolio/static/media/douttt.7864f06a.png",
-    "static/media/gina1c.3fb87934.png": "/portifolio/static/media/gina1c.3fb87934.png",
-    "static/media/gira1.277740ff.png": "/portifolio/static/media/gira1.277740ff.png",
-    "static/media/logo-redondo.6c45a446.png": "/portifolio/static/media/logo-redondo.6c45a446.png",
-    "static/media/logoBruna.0975970b.jpeg": "/portifolio/static/media/logoBruna.0975970b.jpeg",
-    "static/media/tm.a1a868cb.png": "/portifolio/static/media/tm.a1a868cb.png",
-    "static/media/weat1.57f4a913.png": "/portifolio/static/media/weat1.57f4a913.png"
+    "main.css": "/portfolio/static/css/main.360cfeca.chunk.css",
+    "main.js": "/portfolio/static/js/main.686d8f5a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.686d8f5a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.87b005af.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.87b005af.js.map",
+    "static/js/2.9081e9eb.chunk.js": "/portfolio/static/js/2.9081e9eb.chunk.js",
+    "static/js/2.9081e9eb.chunk.js.map": "/portfolio/static/js/2.9081e9eb.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.360cfeca.chunk.css.map": "/portfolio/static/css/main.360cfeca.chunk.css.map",
+    "static/js/2.9081e9eb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9081e9eb.chunk.js.LICENSE.txt",
+    "static/media/BrunaPrauchner-CV-2021.8dc87f92.pdf": "/portfolio/static/media/BrunaPrauchner-CV-2021.8dc87f92.pdf",
+    "static/media/biti.db84441a.png": "/portfolio/static/media/biti.db84441a.png",
+    "static/media/bru3.78d5eb4c.png": "/portfolio/static/media/bru3.78d5eb4c.png",
+    "static/media/douttt.7864f06a.png": "/portfolio/static/media/douttt.7864f06a.png",
+    "static/media/gina1c.3fb87934.png": "/portfolio/static/media/gina1c.3fb87934.png",
+    "static/media/gira1.277740ff.png": "/portfolio/static/media/gira1.277740ff.png",
+    "static/media/logo-redondo.6c45a446.png": "/portfolio/static/media/logo-redondo.6c45a446.png",
+    "static/media/logoBruna.0975970b.jpeg": "/portfolio/static/media/logoBruna.0975970b.jpeg",
+    "static/media/tm.a1a868cb.png": "/portfolio/static/media/tm.a1a868cb.png",
+    "static/media/weat1.57f4a913.png": "/portfolio/static/media/weat1.57f4a913.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e9f765d5.js",
-    "static/js/2.04d4ecd6.chunk.js",
-    "static/css/main.eac06c13.chunk.css",
-    "static/js/main.a7c84522.chunk.js"
+    "static/js/runtime-main.87b005af.js",
+    "static/js/2.9081e9eb.chunk.js",
+    "static/css/main.360cfeca.chunk.css",
+    "static/js/main.686d8f5a.chunk.js"
   ]
 }
