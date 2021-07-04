@@ -4,7 +4,6 @@ import Tm from '../../assets/images/tm.png'
 import Biti from '../../assets/images/biti.png'
 import Dout from '../../assets/images/douttt.png'
 import FormatDescription from '../../components/FormatDescription/FormatDescription'
-import BasicTable from '../../components/BasicTable/BasicTable'
 import './About.css'
 
 function About() {

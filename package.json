@@ -1,6 +1,6 @@
 {
-  "name": "brunaprauchner-portifolio",
-  "homepage": "http://brunaPrauchner.github.io/portifolio",
+  "name": "brunaprauchner-portfolio",
+  "homepage": "http://brunaPrauchner.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
