@@ -1,0 +1,18 @@
+.container-format {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.item-desc {
+  max-width: 800px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.item-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
