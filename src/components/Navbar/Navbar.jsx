@@ -10,7 +10,7 @@ function Navbar() {
         <div className='menu-config'>
           <MenuListComposition />
         </div>
-        <Link to='/portifolio'>
+        <Link to='/portfolio'>
           <img className='img-logo' src={LogoFox} alt='home' />
         </Link>
       </div>
