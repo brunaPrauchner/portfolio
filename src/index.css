@@ -61,3 +61,11 @@ p {
   color: #1a1a1a;
   padding-bottom: 30px;
 }
+
+a {
+  color: #5A819E;
+}
+
+a:hover {
+  color: #D35563;
+}

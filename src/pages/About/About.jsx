@@ -9,7 +9,7 @@ import './About.css'
 function About() {
   return (
     <>
-      <h3> About Me </h3>
+      <h3>About Me</h3>
       <h5>My Story</h5>
       <FormatDescription desc={TEXT.ABT1} img={Bru} size='medium' /> 
 
