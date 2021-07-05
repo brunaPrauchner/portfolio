@@ -1,4 +1,4 @@
-import './FormatDescription.css';
+import './FormatDescription.css'
 
 const FormatDescription = ({ desc, img, size }) => {
   const style = {}
