@@ -11,7 +11,7 @@ function About() {
     <>
       <h3>About Me</h3>
       <h5>My Story</h5>
-      <FormatDescription desc={TEXT.ABT1} img={Bru} size='medium' /> 
+      <FormatDescription desc={TEXT.ABT1} img={Bru} size='medium' />
 
       <h5>Tech Skills</h5>
       <p className="container-middle">
@@ -24,6 +24,7 @@ function About() {
           <li>RabbitMQ SQL PCF</li>
         </ul>
       </p>
+
       <h5>Community Involvement</h5>
       <FormatDescription desc={TEXT.CI1} img={Tm} size='small' />
       <FormatDescription desc={TEXT.CI2} img={Biti} size='small' />
