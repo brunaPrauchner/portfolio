@@ -6,16 +6,19 @@
 }
 
 .format-desc {
-  margin-bottom: 70px;
   max-width: 600px;
 }
 
 .format-img {
-  width: 350px;
+  width: 250px;
 }
 
 .format-title {
   margin-top: 0px;
   margin-bottom: 0px;
-  text-align: center;
+  padding-left: 0px;
+}
+
+.item-bt {
+  margin-left: 115px;
 }

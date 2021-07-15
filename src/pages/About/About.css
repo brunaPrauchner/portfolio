@@ -9,3 +9,8 @@
 .format-list {
   padding-left: 50px;
 }
+.container-box{
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 40px;
+}

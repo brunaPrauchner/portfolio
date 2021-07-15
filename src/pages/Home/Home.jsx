@@ -1,5 +1,6 @@
 import { AiOutlineFile } from 'react-icons/ai'
 import { TEXT } from '../../constants/constants'
+import Button from '../../components/Button/Button'
 import Bruna from '../../assets/images/logoBruna.jpeg'
 import CV from '../../assets/BrunaPrauchner-CV-2021.pdf'
 import './Home.css'
@@ -17,10 +18,9 @@ function Home() {
         <div className='item-left2 text-bio'>
           {TEXT.HM1}
         </div>
-        <button className='button-resume item-left3' onClick={() => window.open(CV, '_blank')}>
-          <span>Résumé</span>
-          <AiOutlineFile className='bt-icon' />
-        </button>
+        <span className='item-bt'>
+        <Button linkBt={CV} desc='Go to CV' icon={<AiOutlineFile/>} />
+        </span>
       </div>
       <div className='container-right'>
         <img className='img-Bruna' src={Bruna} alt='Bruna Prauchner' />

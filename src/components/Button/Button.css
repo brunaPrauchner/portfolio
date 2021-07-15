@@ -1,0 +1,21 @@
+.format-bt {
+  width: 160px;
+  height: 65px;
+  border: none;
+  border-radius: 58px;
+  cursor: pointer;
+  background: #D35563;
+  font-family: "Noto Sans JP";
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 43px;
+  outline: none;
+  color: #FFFFFF;
+  transition-duration: 0.4s;
+  margin-bottom: 35px;
+}
+
+.format-bt:hover {
+  background-color: hsl(353, 59%, 71%);
+  color: white;
+}

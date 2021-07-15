@@ -9,13 +9,12 @@
   flex-direction: column;
   max-width: 50%;
   padding-right: 30px;
-  align-items: center;
 }
 
 .item-left1 {
   font-family: "Noto Serif JP";
-  text-align: center;
-  font-size: 36px;
+  font-size: 30px;
+  color: #5A819E;
 }
 
 .item-left2 {
@@ -36,44 +35,24 @@
 }
 
 .img-Bruna {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 }
 
 .text-bio {
   font-family: "Noto Sans JP";
-  font-size: 24px;
+  font-size: 20px;
   line-height: 35px;
-  color: #5A819E;
+  color: black;
 }
 
 .name {
   font-family: "Dancing Script";
-  font-size: 50px;
+  font-size: 40px;
   line-height: 96px;
   color: #D35563;
 }
 
-.button-resume {
-  width: 250px;
-  height: 70px;
-  border: none;
-  border-radius: 58px;
-  cursor: pointer;
-  background: #5A819E;
-  font-family: "Noto Sans JP";
-  font-weight: 200;
-  font-size: 30px;
-  line-height: 43px;
-  outline: none;
-  color: #FFFFFF;
-  transition-duration: 0.4s;
-}
-
-.button-resume:hover {
-  background-color: hsl(206, 27%, 60%);
-  color: white;
-}
 
 .bt-icon {
   padding-left: 10px;
@@ -81,8 +60,8 @@
 
 @media (max-width: 576px) {
   .img-Bruna {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   .item-left2 {
     width: 250px;
