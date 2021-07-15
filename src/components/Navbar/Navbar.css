@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   background: hsl(206, 27%, 49%);
   padding: 0 20px;
-  min-height: 60px;
+  min-height: 50px;
   position: fixed;
   top: 0;
   left: 0;
@@ -35,7 +35,7 @@
   color: white;
   padding: 1em 1em 0.8em;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .right-side li a:hover {

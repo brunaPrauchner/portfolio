@@ -28,7 +28,7 @@ h3 {
   font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 101px;
   color: #5A819E;
   margin: 0px;
@@ -46,20 +46,21 @@ h5 {
   font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 57px;
   color: #5A819E;
   margin: 0px;
+  padding-left: 30px;
 }
 
 p {
   font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 43px;
+  font-size: 16px;
+  line-height: 40px;
   color: #1a1a1a;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 a {

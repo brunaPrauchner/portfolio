@@ -1,0 +1,23 @@
+
+.format-box {
+  background: #fbdbe2;
+  width: 220px;
+  height: 110px;
+  border-radius: 25px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.format-icon {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #bd6773;
+
+}
+
+.format-line {
+  color: #bd6773;
+  padding-right: 20px;
+  padding-top: 20px;
+}
