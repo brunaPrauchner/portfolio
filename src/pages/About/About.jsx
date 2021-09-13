@@ -11,21 +11,20 @@ function About() {
   return (
     <>
       <h3>About Me</h3>
-      <h5>My Story</h5>
-      <FormatDescription desc={TEXT.AB1} img={Bru} size='medium' />
+      <FormatDescription section='My Story' desc={TEXT.AB1} img={Bru} size='medium' />
 
-      <h5>Tech Skills</h5>
-      <p className='container-middle'>
-        Here are a few technologies I've been working with recently:
-      </p>
-      <div className='container-box'>
-        <Box firstLine='C#' secondLine='.NetCore' />
-        <Box firstLine='React JS' />
-        <Box firstLine='RabbitMq' secondLine='PCF' thirdLine='GIT' />
+      <div className='container-middle'>
+        <h5>Tech Skills</h5>
+        <span className='desc-tech'>Here are a few technologies I've been working with recently:</span>
 
+        <div className='container-box'>
+          <Box firstLine='C#' secondLine='.NetCore' thirdLine='xUnit' />
+          <Box firstLine='JavaScript' secondLine='React' thirdLine='Jest' />
+          <Box firstLine='RabbitMQ' secondLine='PCF' thirdLine='GIT' />
+        </div>
       </div>
-      <h5>Community Involvement</h5>
-      <FormatDescription title='Toastmaster' desc={TEXT.CI1} img={Tm} size='small' />
+
+      <FormatDescription section='Community Involvement' title='Toastmaster' desc={TEXT.CI1} img={Tm} size='small' />
       <FormatDescription title='Study Group' desc={TEXT.CI2} img={Biti} size='small' />
       <FormatDescription title='NGO Doutorzinhos' desc={TEXT.CI3} img={Dout} size='small' />
     </>

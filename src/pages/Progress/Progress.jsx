@@ -1,4 +1,3 @@
-import { BsTools } from 'react-icons/bs'
 import './Progress.css'
 
 function Progress() {

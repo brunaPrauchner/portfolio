@@ -2,7 +2,6 @@ import { TEXT } from '../../constants/constants'
 import Project from '../../components/Project/Project'
 import GinaTells from '../../assets/images/ginatells.png'
 import SaveG from '../../assets/images/savegiraffee.png'
-import Giphy from '../../assets/images/giphy.png'
 import Weat from '../../assets/images/weat1.png'
 import FoxAdm from '../../assets/images/foxadmtool.png'
 import Kpi from '../../assets/images/kpi.png'
@@ -35,12 +34,6 @@ function Projects() {
         link='https://brunaprauchner.com/progress'
         desc={TEXT.P5}
         img={Weat} />
-
-      <Project
-        title='Find your GIPHY'
-        link='https://brunaprauchner.com/progress'
-        desc={TEXT.P6}
-        img={Giphy} />
 
       <Project
         title='KPI Tracking'
