@@ -2,10 +2,11 @@
 .format-box {
   background: #fbdbe2;
   width: 220px;
-  height: 110px;
+  height: 120px;
   border-radius: 25px;
   margin-right: 10px;
   display: flex;
+  margin-bottom: 10px;
 }
 
 .format-icon {
@@ -19,5 +20,4 @@
 .format-line {
   color: #bd6773;
   padding-right: 20px;
-  padding-top: 20px;
 }

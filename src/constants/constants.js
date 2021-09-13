@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 export const TEXT = {
     HM1: <>
         Highly motivated and a persistent <b>problem-solver</b>.
-        I`m detail oriented and passionate about <b>building backend</b> data services,
+        I`m passionate about <b>building backend</b> data services,
         API`s and microservices.
         Currently working as a <b>Software Engineer</b> at DELL.
         Willing to keep learning new technologies,
@@ -26,6 +26,10 @@ export const TEXT = {
         in a multicultural team to delivers innovative payment solutions,
         allowing organizations to align and scale the cost of IT solutions
         with technology consumption and budget availability.
+        Here I'm experiencing pair programming, TDD, and other agile engineering practices. 
+        I created this webpage to present my work, share my knowledge, personal interests  
+        and to inspire other women in tech. 
+        <b> Enjoy.</b>&#127811;
     </>,
 
     CI1: <>
@@ -41,12 +45,12 @@ export const TEXT = {
 
     CI2: <>
         A <b>study group for technical interviews in IT</b>.
-        In partnership with <a href='https://braziliansintech.com/'>Brazilians in Tech</a> platform
+        In partnership with <a href='https://braziliansintech.com/'  target="_blank">Brazilians in Tech</a> platform
         we can provide sessions for a small group of people
         to do <b>theory review</b> and then practice common <b>code challenges </b>
         and problems used in interviews
         We also provide <b>mock interviews</b> to practice what to say during
-        an interview and get <b>feedback</b>.
+        an interview and get <b>feedback</b>.  <Link to='/progress'>You can check about the project here.</Link>
     </>,
 
     CI3: <>
@@ -54,24 +58,20 @@ export const TEXT = {
         we went to the <b>hospitals</b> every week
         aiming to make this environment a <b>happier place</b>,
         contributing positively to the <b>humanization of hospitals. </b>
-        <a href='https://www.doutorzinhos.org.br/'>
+        <a href='https://www.doutorzinhos.org.br/'  target="_blank">
             You can check the website here to see this amazing volunteer work.
         </a>
     </>,
 
     P1: <>
-        Is the best way to <b>select a film to watch</b>.
-        The game is based on the <b>artificial intelligence</b> created
-        by three friends. Gina will asks a series of questions
-        and then return a list of movies based on your answers.
-        Here we are not generating a list based in movies genres like
-        'Best drama movies 2019', here
-        the selection is based on
-        "Would you like to watch movies with ..."
-        human-dog relationships? lots of action on screen?
-        snow and rain? technology and futuristic stuff?
-        located on the beach with a brighter sun?
-        Created with C# .NetCore along with React.
+        An <b>Artificial Intelligence</b> based project created by three friends 
+        that aims to help users to find the best movies 
+        or things to watch based on what their tastes and feelings are right now. 
+        Here we are not generating a list based on movies genres like 
+        'Best drama movies 2019', here the selection is based on 
+        "Would you like to watch movies with ..." human-dog relationships? 
+        lots of action on screen? snow and rain? technology and futuristic stuff? 
+        located on the beach with a brighter sun? <b> Created with C# .NetCore along with React. </b>
     </>,
 
     P2: <>
@@ -101,7 +101,7 @@ export const TEXT = {
     </>,
     P4: <>
         A simple <b>CRUD</b> application.
-        Backend developed with C# .NetCore and UI using React
+        Backend developed with <b>C# .NetCore</b> and UI using <b>React</b>
     </>,
 
     P5: <>
@@ -109,7 +109,7 @@ export const TEXT = {
         the location to get the current temperature.
         Also you can select a option to make funny comparisons
         with the ability to view historical data.
-        Created with Node, React and <a href='https://openweathermap.org/current' >OpenWeather API</a>
+        Created with <b>Node, React</b> and <a href='https://openweathermap.org/current' >OpenWeather API</a>
     </>,
 
     P6: <>
@@ -122,11 +122,9 @@ export const TEXT = {
     </>,
 
     P7: <>
-        Measuring key performance indicators (KPIs)
-        involves capturing specific data and converting it
-        into useful metrics that can be measured
-        and reported in easily digestible charts and dashboards.
-        Still too soon to talk about it
-        but excited about what the future holds.
+        The Software KPIs (key performance indicator) is a project 
+        that aims to facilitate the creation, implementation, and management of KPIs
+        in software development teams that follow the <b>Lean thinking. </b>
+        Still too soon to talk about it but excited about what the future holds.
     </>
 }

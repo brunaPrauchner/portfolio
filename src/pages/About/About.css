@@ -1,16 +1,21 @@
 .container-middle {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
   flex-wrap: wrap;
-  padding-left: 30px;
   margin-bottom: 0px;
+}
+
+.desc-tech {
+  padding-left: 30px;
 }
 
 .format-list {
   padding-left: 50px;
 }
-.container-box{
+
+.container-box {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 30px;
   padding-bottom: 40px;
 }
