@@ -3,7 +3,7 @@ import './Box.css'
 
 const Box = ({ firstLine, secondLine, thirdLine }) => {
   return (
-    <>
+    <> 
       <div className='format-box'>
         <span className='format-icon'><BsTools /></span>
         <div >

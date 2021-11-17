@@ -19,7 +19,7 @@ function Home() {
           {TEXT.HM1}
         </div>
         <span className='item-bt'>
-        <Button linkBt={CV} desc='Go to CV' icon={<AiOutlineFile/>} />
+          <Button linkBt={CV} desc='Go to CV' icon={<AiOutlineFile />} />
         </span>
       </div>
       <div className='container-right'>

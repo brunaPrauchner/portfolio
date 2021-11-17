@@ -10,7 +10,7 @@ function Navbar() {
         <div className='menu-config'>
           <MenuListComposition />
         </div>
-        <Link to='/portfolio'>
+        <Link style={{ display: 'flex' }} to='/portfolio'>
           <img className='img-logo' src={LogoFox} alt='home' />
         </Link>
       </div>
