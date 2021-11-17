@@ -1,6 +1,6 @@
 import './FormatDescription.css'
 
-const FormatDescription = ({ section, title, desc, img, size }) => {
+const FormatDescription = ({ section, title, desc, img, size, customComponent }) => {
   const style = {}
 
   switch (size) {
@@ -15,20 +15,20 @@ const FormatDescription = ({ section, title, desc, img, size }) => {
       break;
 
     case 'large':
-      style.width = '100px'
-      style.height = '100px'
+      style.width = '400px'
+      style.height = '400px'
       break;
   }
 
   return (
     <div className='container-format'>
-    <div>
-      <h5>{section}</h5>
-      {title && <span className='format-name'>{title}</span>}
-      <p className='item-desc'>{desc}</p>
+      <div>
+        <h5>{section}</h5>
+        {title && <span className='format-name'>{title}</span>}
+        <p className='item-desc'>{desc}</p>
       </div>
       <div className='item-img'>
-        <img src={img} style={style} />
+        {img ? <img src={img} style={style} /> : customComponent}
       </div>
     </div>
   )

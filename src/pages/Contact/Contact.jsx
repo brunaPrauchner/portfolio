@@ -9,9 +9,13 @@ function Contact() {
       <h3>Let's get in touch</h3>
       <div className='container-top'>
         <p >
-          If you wanna get in touch, have a question
-          or simply have a chat drop me an email
-          at </p>
+          Hi and thanks for stopping by!
+        </p>
+        <p>
+          Don’t be shy and get in touch with me,
+          have a question or simply have a chat
+          drop me an email at
+        </p>
         <span className='format-email'>prauchner.bruna@gmail.com </span>
         <p>
           or reach me in one of these social media.

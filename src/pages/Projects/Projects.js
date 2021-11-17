@@ -13,7 +13,7 @@ function Projects() {
       <h3>Projects</h3>
       <Project
         title='Gina Tells'
-        link='https://brunaprauchner.com/progress'
+        link='https://github.com/ginatells'
         desc={TEXT.P1}
         img={GinaTells} />
 

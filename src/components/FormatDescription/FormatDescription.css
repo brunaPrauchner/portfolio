@@ -1,8 +1,15 @@
 .container-format {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
+  margin: 0 2% 20px 2%;
+}
+
+.container-format>*:nth-child(1) {
+  min-width: 50%;
+}
+
+.container-format>*:nth-child(2) {
+  flex: 1;
 }
 
 .item-desc {
@@ -11,7 +18,7 @@
   padding-left: 30px;
 }
 
-.format-name{
+.format-name {
   color: #D35563;
   font-family: "Noto Serif JP";
   font-style: normal;
@@ -21,6 +28,7 @@
   margin: 0px;
   padding-left: 30px;
 }
+
 .item-img {
   display: flex;
   align-items: center;
