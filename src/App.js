@@ -1,22 +1,22 @@
-import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home/Home';
-import About from './pages/About/About';
-import Projects from './pages/Projects/Projects';
-import Contact from './pages/Contact/Contact';
-import Progress from './pages/Progress/Progress';
-import Navbar from './components/Navbar/Navbar';
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home/Home'
+import About from './pages/About/About'
+import Projects from './pages/Projects/Projects'
+import Contact from './pages/Contact/Contact'
+import Error from './pages/Error/Error'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/portfolio' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/progress' element={<Progress />} />
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/portfolio' element={<Home />} />
+        <Route exact path='/about' element={<About />} />
+        <Route exact path='/projects' element={<Projects />} />
+        <Route exact path='/contact' element={<Contact />} />
+        <Route path='*' element={<Error />} />
       </Routes>
     </>
   );
