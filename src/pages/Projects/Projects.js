@@ -6,6 +6,7 @@ import Weat from '../../assets/images/weat1.png'
 import FoxAdm from '../../assets/images/foxadmtool.png'
 import Kpi from '../../assets/images/kpi.png'
 
+
 function Projects() {
 
   return (
@@ -45,7 +46,7 @@ function Projects() {
 
       <Project
         title='KPI Tracking'
-        link=''
+        link = ''
         desc={TEXT.P7}
         img={Kpi} 
         caption='Project Image for KPI Tracking'
