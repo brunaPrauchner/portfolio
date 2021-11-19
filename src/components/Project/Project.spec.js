@@ -25,15 +25,10 @@ describe('Project', () => {
     expect(wrapper.find('img').prop('alt')).toBe('caption to test');
   })
 
-  it("renders a button when it has a link", () => {
+  it("renders a button", () => {
     const wrapper = shallow(<Project link='www.test.com' desc='Check project'/>);
     expect(wrapper.find('Button').exists()).toBe(true);
     expect(wrapper.find('Button').prop('linkBt')).toBe('www.test.com');
     expect(wrapper.find('Button').prop('desc')).toBe('Check project');
-  })
-
-  it("not renders a button when it has not a link", () => {
-    const wrapper = shallow(<Project />);
-    expect(wrapper.find('Button').exists()).toBe(false);
   })
 });

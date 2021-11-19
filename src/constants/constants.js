@@ -44,7 +44,7 @@ export const TEXT = {
         to build skills as an innovative communicator and leader.
         Focusing on how to negotiate a positive outcome together
         with building strong interpersonal communication
-        and public speaking skills. <Link to='/progress'>You can check each project here.</Link>
+        and public speaking skills. <a href='https://www.youtube.com/watch?v=NOIdCgK8rtY&list=PLMG9_s7_kOSHxHhjLIGrGsrDhj8H-twmS&ab_channel=IdentidadeLiter%C3%A1ria-Bruna' target="_blank">You can check each project here.</a>
     </>,
 
     CI2: <>
@@ -77,7 +77,7 @@ export const TEXT = {
         lots of action on screen? snow and rain? technology and futuristic stuff?
         located on the beach with a brighter sun? <b>
             Created with C# .NetCore along with React,
-            using the IMDB database to query movies.
+            using the <a href='https://imdb-api.com/api' >IMDB API</a> to query movies.
         </b>
     </>,
 
@@ -94,18 +94,6 @@ export const TEXT = {
         in order to animate the solution of the problems, since the solution that the planners return can become overwhelming to understand.
     </>,
 
-    P3: <>
-        Find your GIPHY In this approach to check weather,
-        sdsd for etiam augue luctus, dictumst nisl dolor
-        cras donec scelerisque aliquam luctus inceptos.
-        Created with Node, React, MongoDB
-        In this approach to check weather, sdsd for etiam augue luctus,
-        dictumst nisl dolor cras donec scelerisque aliquam luctus inceptos.
-        Created with Node, React, MongoDB
-        In this approach to check weather, sdsd for etiam augue luctus,
-        dictumst nisl dolor cras donec scelerisque aliquam luctus inceptos.
-        Created with Node, React, MongoDB
-    </>,
     P4: <>
         A simple <b>CRUD</b> application.
         Backend developed with <b>C# .NetCore</b> and UI using <b>React</b>
@@ -130,7 +118,7 @@ export const TEXT = {
 
     P7: <>
         The Software KPIs (key performance indicator) is a project
-        that aims to facilitate the creation, implementation, and management of KPIs
+        that aims to facilitate the creation, implementation, and <b>management of KPIs </b>
         in software development teams that follow the <b>Lean thinking. </b>
         Still too soon to talk about it but excited about what the future holds.
     </>
