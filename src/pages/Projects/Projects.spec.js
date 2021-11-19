@@ -42,7 +42,7 @@ describe('Projects', () => {
     const wrapper = shallow(<Projects />);
     expect(wrapper.find('Project').exists()).toBe(true);
     expect(wrapper.find('Project').at(3).prop('title')).toBe('Check Weather')
-    //expect(wrapper.find('Project').at(3).prop('link')).toBe('')
+    expect(wrapper.find('Project').at(3).prop('link')).toBe('')
     expect(wrapper.find('Project').at(3).prop('desc')).toBeTruthy
     expect(wrapper.find('Project').at(3).prop('img')).toBe('weat1.png')
     expect(wrapper.find('Project').at(3).prop('caption')).toBe('Project Image for Check Weather');
@@ -52,7 +52,7 @@ describe('Projects', () => {
     const wrapper = shallow(<Projects />);
     expect(wrapper.find('Project').exists()).toBe(true);
     expect(wrapper.find('Project').at(4).prop('title')).toBe('KPI Tracking')
-    //expect(wrapper.find('Project').at(4).prop('link')).toBe('')
+    expect(wrapper.find('Project').at(4).prop('link')).toBe('')
     expect(wrapper.find('Project').at(4).prop('desc')).toBeTruthy
     expect(wrapper.find('Project').at(4).prop('img')).toBe('kpi.png')
     expect(wrapper.find('Project').at(4).prop('caption')).toBe('Project Image for KPI Tracking');
