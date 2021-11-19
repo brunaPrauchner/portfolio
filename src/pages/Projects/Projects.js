@@ -15,31 +15,41 @@ function Projects() {
         title='Gina Tells'
         link='https://github.com/ginatells'
         desc={TEXT.P1}
-        img={GinaTells} />
+        img={GinaTells} 
+        caption='Gina Tells Logo'
+        />
 
       <Project
         title='Save Giraffe'
         link='https://github.com/brunaPrauchner/AI-AutomatedPlanning-SaveGiraffe'
         desc={TEXT.P2}
-        img={SaveG} />
+        img={SaveG} 
+        caption='Project Image for Save Giraffe'
+        />
 
       <Project
         title='Fox Adm Tool'
         link='https://github.com/brunaPrauchner/fox-adm-tool-api'
         desc={TEXT.P4}
-        img={FoxAdm} />
+        img={FoxAdm} 
+        caption='Project Image for Fox Adm Tool'
+        />
 
       <Project
         title='Check Weather'
-        link='https://brunaprauchner.com/progress'
+        link=''
         desc={TEXT.P5}
-        img={Weat} />
+        img={Weat} 
+        caption='Project Image for Check Weather'
+        />
 
       <Project
         title='KPI Tracking'
-        link='https://brunaprauchner.com/progress'
+        link=''
         desc={TEXT.P7}
-        img={Kpi} />
+        img={Kpi} 
+        caption='Project Image for KPI Tracking'
+        />
     </div>
   );
 }

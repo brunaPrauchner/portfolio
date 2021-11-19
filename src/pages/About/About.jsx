@@ -1,8 +1,8 @@
 import { TEXT } from '../../constants/constants'
-import Bru from '../../assets/images/bru3.png'
+import Bru from '../../assets/images/bru-mystory.png'
 import Tm from '../../assets/images/tm.png'
 import Biti from '../../assets/images/biti.png'
-import Dout from '../../assets/images/douttt.png'
+import Dout from '../../assets/images/dout.png'
 import FormatDescription from '../../components/FormatDescription/FormatDescription'
 import FormatSkill from '../../components/FormatSkill/FormatSkill'
 import './About.css'
@@ -17,6 +17,7 @@ function About() {
         desc={TEXT.AB1}
         img={Bru}
         size='medium'
+        caption='Bruna Prauchner'
       />
 
       <FormatDescription
@@ -32,6 +33,7 @@ function About() {
         desc={TEXT.CI1}
         img={Tm}
         size='small'
+        caption='Toastmaster Logo'
       />
 
       <FormatDescription
@@ -39,6 +41,7 @@ function About() {
         desc={TEXT.CI2}
         img={Biti}
         size='small'
+        caption='Study Group Logo'
       />
 
       <FormatDescription
@@ -46,6 +49,7 @@ function About() {
         desc={TEXT.CI3}
         img={Dout}
         size='small'
+        caption='Doutorzinhos Logo'
       />
     </>
   )
