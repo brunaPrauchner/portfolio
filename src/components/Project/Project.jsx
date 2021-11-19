@@ -2,7 +2,7 @@ import { FiExternalLink } from 'react-icons/fi'
 import Button from '../../components/Button/Button'
 import './Project.css'
 
-const Project = ({ title, link, desc, img }) => {
+const Project = ({ title, link, desc, img, caption }) => {
   const hasLink = link != null
   return (
     <div className='container-project'>
@@ -12,7 +12,7 @@ const Project = ({ title, link, desc, img }) => {
         {hasLink &&
           <Button linkBt={link} desc='Check project' icon={<FiExternalLink />} />}
       </div>
-      <img src={img} className='format-img' />
+      <img src={img} alt={caption} className='format-img' />
     </div>
   )
 }

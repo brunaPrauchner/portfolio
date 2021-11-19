@@ -1,6 +1,6 @@
 import './FormatDescription.css'
 
-const FormatDescription = ({ section, title, desc, img, size, customComponent }) => {
+const FormatDescription = ({ section, title, desc, img, size, customComponent, caption }) => {
   const style = {}
 
   switch (size) {
@@ -28,7 +28,7 @@ const FormatDescription = ({ section, title, desc, img, size, customComponent })
         <p className='item-desc'>{desc}</p>
       </div>
       <div className='item-img'>
-        {img ? <img src={img} style={style} /> : customComponent}
+        {img ? <img src={img} alt={caption} style={style} /> : customComponent}
       </div>
     </div>
   )

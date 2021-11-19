@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import MenuListComposition from '../MenuListComposition/MenuListComposition'
-import LogoFox from '../../assets/images/logo-redondo.png'
+import LogoFox from '../../assets/images/rounded-logo.png'
 import './Navbar.css'
 
 function Navbar() {

@@ -12,10 +12,3 @@
 .format-list {
   padding-left: 50px;
 }
-
-.container-box {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 30px;
-  padding-bottom: 40px;
-}
