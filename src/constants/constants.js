@@ -77,7 +77,7 @@ export const TEXT = {
         lots of action on screen? snow and rain? technology and futuristic stuff?
         located on the beach with a brighter sun? <b>
             Created with C# .NetCore along with React,
-            using the <a href='https://imdb-api.com/api' >IMDB API</a> to query movies.
+            using the <a href='https://imdb-api.com/api' target="_blank" >IMDB API</a> to query movies.
         </b>
     </>,
 
@@ -104,7 +104,7 @@ export const TEXT = {
         the location to get the current temperature.
         Also you can select a option to make funny comparisons
         with the ability to view historical data.
-        Created with <b>Node, React</b> and <a href='https://openweathermap.org/current' >OpenWeather API</a>
+        Created with <b>Node, React</b> and <a href='https://openweathermap.org/current'  target="_blank" >OpenWeather API</a>
     </>,
 
     P6: <>

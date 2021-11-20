@@ -9,7 +9,7 @@ const Button = ({ linkBt, desc, icon }) => {
           <button className='format-bt' onClick={() => window.open(linkBt, '_blank')}>
             <span>{desc} {icon}</span>
           </button>
-          : <HashLink to='progress'>
+          : <HashLink to='/progress'>
             <button className='format-bt'>
               <span>{desc} {icon}</span>
             </button>
