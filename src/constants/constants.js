@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 export const TEXT = {
     HM1: <>
         Highly motivated and a persistent <b>problem-solver</b>.
@@ -44,12 +43,12 @@ export const TEXT = {
         to build skills as an innovative communicator and leader.
         Focusing on how to negotiate a positive outcome together
         with building strong interpersonal communication
-        and public speaking skills. <a href='https://www.youtube.com/watch?v=NOIdCgK8rtY&list=PLMG9_s7_kOSHxHhjLIGrGsrDhj8H-twmS&ab_channel=IdentidadeLiter%C3%A1ria-Bruna' target="_blank">You can check each project here.</a>
+        and public speaking skills. <a href='https://www.youtube.com/watch?v=NOIdCgK8rtY&list=PLMG9_s7_kOSHxHhjLIGrGsrDhj8H-twmS&ab_channel=IdentidadeLiter%C3%A1ria-Bruna' target="_blank" rel="noopener noreferrer">You can check each project here.</a>
     </>,
 
     CI2: <>
         A <b>study group for technical interviews in IT</b>.
-        In partnership with <a href='https://braziliansintech.com/' target="_blank">Brazilians in Tech</a> platform
+        In partnership with <a href='https://braziliansintech.com/' target="_blank" rel="noopener noreferrer">Brazilians in Tech</a> platform
         we can provide sessions for a small group of people
         to do <b>theory review</b> and then practice common <b>code challenges </b>
         and problems used in interviews
@@ -62,7 +61,7 @@ export const TEXT = {
         we went to the <b>hospitals</b> every week
         aiming to make this environment a <b>happier place</b>,
         contributing positively to the <b>humanization of hospitals. </b>
-        <a href='https://www.doutorzinhos.org.br/' target="_blank">
+        <a href='https://www.doutorzinhos.org.br/' target="_blank" rel="noopener noreferrer">
             You can check the website here to see this amazing volunteer work.
         </a>
     </>,
@@ -77,7 +76,7 @@ export const TEXT = {
         lots of action on screen? snow and rain? technology and futuristic stuff?
         located on the beach with a brighter sun? <b>
             Created with C# .NetCore along with React,
-            using the <a href='https://imdb-api.com/api' target="_blank" >IMDB API</a> to query movies.
+            using the <a href='https://imdb-api.com/api' target="_blank" rel="noopener noreferrer" >IMDB API</a> to query movies.
         </b>
     </>,
 
@@ -104,7 +103,7 @@ export const TEXT = {
         the location to get the current temperature.
         Also you can select a option to make funny comparisons
         with the ability to view historical data.
-        Created with <b>Node, React</b> and <a href='https://openweathermap.org/current'  target="_blank" >OpenWeather API</a>
+        Created with <b>Node, React</b> and <a href='https://openweathermap.org/current'  target="_blank" rel="noopener noreferrer" >OpenWeather API</a>
     </>,
 
     P6: <>
