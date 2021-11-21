@@ -7,17 +7,21 @@ const FormatDescription = ({ section, title, desc, img, size, customComponent, c
     case 'small':
       style.width = '250px'
       style.height = '250px'
-      break;
+      break
 
     case 'medium':
       style.width = '300px'
       style.height = '300px'
-      break;
+      break
 
     case 'large':
       style.width = '400px'
       style.height = '400px'
-      break;
+      break
+
+    default:
+      style.width = '250px'
+      style.height = '250px'
   }
 
   return (
@@ -33,4 +37,4 @@ const FormatDescription = ({ section, title, desc, img, size, customComponent, c
     </div>
   )
 }
-export default FormatDescription;
+export default FormatDescription

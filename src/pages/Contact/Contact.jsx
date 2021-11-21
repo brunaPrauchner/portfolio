@@ -23,9 +23,9 @@ function Contact() {
       </div>
 
       <ul className='contact-list'>
-        <li ><AiFillGithub className='icon' /><a href='https://github.com/brunaPrauchner' target="_blank">brunaPrauchner </a></li>
-        <li><AiFillLinkedin className='icon' /> <a href='https://www.linkedin.com/in/bruna-prauchner/' target="_blank">bruna-prauchner </a></li>
-        <li><RiCodeBoxFill className='icon' /><a href='https://leetcode.com/BrunaPrauchner23/' target="_blank">BrunaPrauchner23 </a></li>
+        <li ><AiFillGithub className='icon' /><a href='https://github.com/brunaPrauchner' target="_blank" rel="noopener noreferrer">brunaPrauchner </a></li>
+        <li><AiFillLinkedin className='icon' /> <a href='https://www.linkedin.com/in/bruna-prauchner/' target="_blank" rel="noopener noreferrer">bruna-prauchner </a></li>
+        <li><RiCodeBoxFill className='icon' /><a href='https://leetcode.com/BrunaPrauchner23/' target="_blank" rel="noopener noreferrer">BrunaPrauchner23 </a></li>
       </ul>
     </div>
   );
