@@ -3,7 +3,7 @@ export const TEXT = {
         Highly motivated and a persistent <b>problem-solver</b>.
         I`m passionate about <b>building backend</b> data services,
         API`s and microservices.
-        Currently working as a <b>Software Engineer</b> at DELL.
+        Currently working as a <b>Software Engineer</b> at ADP.
         Willing to keep learning new technologies,
         frameworks and best practices.
     </>,
@@ -13,21 +13,23 @@ export const TEXT = {
         Born in Porto Alegre (Brazil) and raised in a small town
         called Eldorado do Sul. I studied <b>Computer Science</b> at PUCRS.
         At the beginning of university I wanted to study english abroad
-        to enhance my communication skills thus I went to Australia.
+        to enhance my communication skills thus, I went to Australia.
         I arrived on the other side of the world completely alone
-        that made me realize everyday has a surprise it can be good or bad
+        which made me realize every day has a surprise it can be good or bad
         we have to know how to deal with both sides of the coin.
         <b> Going out of your comfort zone</b> is an addictive feeling
         and to put that in practice when I came back I decided
-        to do volunteer work, since I`m addicted to <b>experiences
+        to do volunteer work since I`m addicted to <b>experiences
             that can broaden my horizons. </b>
-        Fast-forward to today I work as <b>Software Engineer</b> at DELL
-        in a multicultural team to delivers innovative payment solutions,
+        I started working as a <b>Software Engineer</b> at DELL
+        in a multicultural team that delivers innovative payment solutions,
         allowing organizations to align and scale the cost of IT solutions
         with technology consumption and budget availability.
-        Here I'm experiencing <b>pair programming, TDD,</b> and other agile engineering practices.
-        I created this webpage to present my work, share my knowledge, personal interests
-        and to <b>inspire other women in tech</b>.
+        I've experienced <b>pair programming, TDD,</b> and other agile engineering practices.
+        Fast-forward to today I work as a <b>Senior Software Engineer</b> at ADP
+        in the Wisely® ecosystem offering latest innovations in the payments business.
+        I created this webpage to present my work, share my knowledge, and personal interests
+        and <b>inspire other women in tech</b>.
         <b> Enjoy.</b>&#127811;
     </>,
 

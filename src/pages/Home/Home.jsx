@@ -2,7 +2,7 @@ import { AiOutlineFile } from 'react-icons/ai'
 import { TEXT } from '../../constants/constants'
 import Button from '../../components/Button/Button'
 import Bruna from '../../assets/images/logoBruna.jpeg'
-import CV from '../../assets/BrunaPrauchner-CV-2021.pdf'
+import CV from '../../assets/BrunaPrauchner-CV-2022.pdf'
 import './Home.css'
 
 function Home() {
