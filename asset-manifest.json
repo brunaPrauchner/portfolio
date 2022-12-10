@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8b73e343.chunk.css",
-    "main.js": "/static/js/main.368dad08.chunk.js",
-    "main.js.map": "/static/js/main.368dad08.chunk.js.map",
+    "main.js": "/static/js/main.1f582356.chunk.js",
+    "main.js.map": "/static/js/main.1f582356.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6a7d8f96.js",
     "runtime-main.js.map": "/static/js/runtime-main.6a7d8f96.js.map",
     "static/js/2.68b5fc5b.chunk.js": "/static/js/2.68b5fc5b.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.8b73e343.chunk.css.map": "/static/css/main.8b73e343.chunk.css.map",
     "static/js/2.68b5fc5b.chunk.js.LICENSE.txt": "/static/js/2.68b5fc5b.chunk.js.LICENSE.txt",
-    "static/media/BrunaPrauchner-CV-2021.8dc87f92.pdf": "/static/media/BrunaPrauchner-CV-2021.8dc87f92.pdf",
+    "static/media/BrunaPrauchner-CV-2022.70421729.pdf": "/static/media/BrunaPrauchner-CV-2022.70421729.pdf",
     "static/media/biti.db84441a.png": "/static/media/biti.db84441a.png",
     "static/media/bru-mystory.78d5eb4c.png": "/static/media/bru-mystory.78d5eb4c.png",
     "static/media/dout.7864f06a.png": "/static/media/dout.7864f06a.png",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.6a7d8f96.js",
     "static/js/2.68b5fc5b.chunk.js",
     "static/css/main.8b73e343.chunk.css",
-    "static/js/main.368dad08.chunk.js"
+    "static/js/main.1f582356.chunk.js"
   ]
 }
