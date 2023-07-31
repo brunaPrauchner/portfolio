@@ -1,32 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b73e343.chunk.css",
-    "main.js": "/static/js/main.1f582356.chunk.js",
-    "main.js.map": "/static/js/main.1f582356.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6a7d8f96.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6a7d8f96.js.map",
-    "static/js/2.68b5fc5b.chunk.js": "/static/js/2.68b5fc5b.chunk.js",
-    "static/js/2.68b5fc5b.chunk.js.map": "/static/js/2.68b5fc5b.chunk.js.map",
+    "main.css": "/static/css/main.b5f0647b.css",
+    "main.js": "/static/js/main.4d9c3dfb.js",
+    "static/media/bru-mystory.png": "/static/media/bru-mystory.78d5eb4ccac5361bbea4.png",
+    "static/media/logoBruna.jpeg": "/static/media/logoBruna.0975970ba8c89fbca986.jpeg",
+    "static/media/savegiraffee.png": "/static/media/savegiraffee.d8d967e7485f7f291048.png",
+    "static/media/dout.png": "/static/media/dout.7864f06aa16ac03e3deb.png",
+    "static/media/rounded-logo.png": "/static/media/rounded-logo.6c45a446585b9e811338.png",
+    "static/media/biti.png": "/static/media/biti.db84441a3874b5a13daa.png",
+    "static/media/tm.png": "/static/media/tm.a1a868cb5cbb40ca2df9.png",
+    "static/media/BrunaPrauchner-CV-2023.pdf": "/static/media/BrunaPrauchner-CV-2023.a3bc319dd07ad5ac1490.pdf",
+    "static/media/ginatells.png": "/static/media/ginatells.547fd260a4030d1af646.png",
+    "static/media/kpi.png": "/static/media/kpi.405c10ae3bbcd1a0f311.png",
+    "static/media/foxadmtool.png": "/static/media/foxadmtool.c41437f033b091a16212.png",
+    "static/media/weat1.png": "/static/media/weat1.57f4a91396c7b271b50e.png",
     "index.html": "/index.html",
-    "static/css/main.8b73e343.chunk.css.map": "/static/css/main.8b73e343.chunk.css.map",
-    "static/js/2.68b5fc5b.chunk.js.LICENSE.txt": "/static/js/2.68b5fc5b.chunk.js.LICENSE.txt",
-    "static/media/BrunaPrauchner-CV-2022.70421729.pdf": "/static/media/BrunaPrauchner-CV-2022.70421729.pdf",
-    "static/media/biti.db84441a.png": "/static/media/biti.db84441a.png",
-    "static/media/bru-mystory.78d5eb4c.png": "/static/media/bru-mystory.78d5eb4c.png",
-    "static/media/dout.7864f06a.png": "/static/media/dout.7864f06a.png",
-    "static/media/foxadmtool.c41437f0.png": "/static/media/foxadmtool.c41437f0.png",
-    "static/media/ginatells.547fd260.png": "/static/media/ginatells.547fd260.png",
-    "static/media/kpi.405c10ae.png": "/static/media/kpi.405c10ae.png",
-    "static/media/logoBruna.0975970b.jpeg": "/static/media/logoBruna.0975970b.jpeg",
-    "static/media/rounded-logo.6c45a446.png": "/static/media/rounded-logo.6c45a446.png",
-    "static/media/savegiraffee.d8d967e7.png": "/static/media/savegiraffee.d8d967e7.png",
-    "static/media/tm.a1a868cb.png": "/static/media/tm.a1a868cb.png",
-    "static/media/weat1.57f4a913.png": "/static/media/weat1.57f4a913.png"
+    "main.b5f0647b.css.map": "/static/css/main.b5f0647b.css.map",
+    "main.4d9c3dfb.js.map": "/static/js/main.4d9c3dfb.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a7d8f96.js",
-    "static/js/2.68b5fc5b.chunk.js",
-    "static/css/main.8b73e343.chunk.css",
-    "static/js/main.1f582356.chunk.js"
+    "static/css/main.b5f0647b.css",
+    "static/js/main.4d9c3dfb.js"
   ]
 }
