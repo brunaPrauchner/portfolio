@@ -18,7 +18,7 @@ describe('Contact', () => {
     const wrapper = shallow(<Contact />);
     expect(wrapper.find('li')).toHaveLength(3);
     expect(wrapper.find('a').at(0).prop('href')).toEqual('https://github.com/brunaPrauchner')
-    expect(wrapper.find('a').at(1).prop('href')).toEqual('https://www.linkedin.com/in/bruna-prauchner/')
+    expect(wrapper.find('a').at(1).prop('href')).toEqual('https://www.linkedin.com/in/brunaprauchner/')
     expect(wrapper.find('a').at(2).prop('href')).toEqual('https://leetcode.com/BrunaPrauchner23/')
   })
 });
