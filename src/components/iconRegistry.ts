@@ -1,0 +1,32 @@
+import {
+  ActivityChartIcon,
+  BoltIcon,
+  ChatBubbleIcon,
+  CodeIcon,
+  DownloadIcon,
+  EnvelopeIcon,
+  GithubIcon,
+  LinkedinIcon,
+  LocationPinIcon,
+  MailIcon,
+  MonitorIcon,
+  OfficeIcon,
+  ShoppingCartIcon,
+  type IconName,
+} from './icons'
+
+export const iconRegistry = {
+  activityChart: ActivityChartIcon,
+  bolt: BoltIcon,
+  chatBubble: ChatBubbleIcon,
+  code: CodeIcon,
+  download: DownloadIcon,
+  envelope: EnvelopeIcon,
+  github: GithubIcon,
+  linkedin: LinkedinIcon,
+  locationPin: LocationPinIcon,
+  mail: MailIcon,
+  monitor: MonitorIcon,
+  office: OfficeIcon,
+  shoppingCart: ShoppingCartIcon,
+} satisfies Record<IconName, () => React.ReactNode>
