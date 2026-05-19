@@ -24,6 +24,7 @@ export interface FeaturedProject {
   title: string
   description: string
   icon: IconName
+  githubUrl: string
   tech: string[]
 }
 
@@ -94,27 +95,38 @@ export const experiences: Experience[] = [
 
 export const featuredProjects: FeaturedProject[] = [
   {
-    title: 'Retail Payment Platform',
-    description: 'Microservices platform powering grocery payments and retail eCommerce at scale.',
+    title: 'Budget Tracker API',
+    description: 'Microservice for tracking expenses, categorizing transactions, and generating monthly spending insights',
     icon: 'shoppingCart',
-    tech: ['Java Spring Boot', 'Kafka', 'AWS', 'CI/CD'],
+    githubUrl: 'https://github.com/brunaPrauchner/budget-tracker-api',
+    tech: ['Java Spring Boot', 'AWS', 'CI/CD', 'K3S'],
+  },
+  {
+    title: 'Budget Tracker UI',
+    description: 'User interface for the budget tracking application',
+    icon: 'shoppingCart',
+    githubUrl: 'https://github.com/brunaPrauchner/budget-tracker-ui',
+    tech: ['React', 'TypeScript', 'HTML/CSS'],
   },
   {
     title: 'Observability Platform',
-    description: 'Production monitoring across 50+ microservices with metrics, traces, and dashboards.',
+    description: 'Monitoring microservices with metrics, traces, and dashboards',
     icon: 'activityChart',
-    tech: ['Prometheus', 'Grafana', 'OpenTelemetry', 'AKS'],
+    githubUrl: 'https://github.com/brunaPrauchner',
+    tech: ['In Progress', 'Prometheus', 'Grafana', 'OpenTelemetry', 'Terraform'],
   },
   {
-    title: 'Direct Deposit Automation',
-    description: 'Python automation reducing manual source matching and improving workflow efficiency.',
-    icon: 'bolt',
-    tech: ['Python', 'AWS', 'MySQL', 'SQS'],
+    title: 'Meal planner',
+    description: 'A meal planning app that generates personalized meal ideas based on preferences, ingredients, and nutrition goals',
+    icon: 'chefHat',
+    githubUrl: 'https://github.com/brunaPrauchner',
+    tech: ['In Progress', 'Python', 'AWS', 'MySQL', 'SQS'],
   },
   {
-    title: 'Financial APIs',
-    description: 'RESTful APIs and RabbitMQ messaging for secure payment communication.',
+    title: 'AI - Automated planning',
+    description: 'A Unity-based planning simulation where agents rescue runaway zoo giraffes from different danger situations while testing planner scalability across increasingly complex scenarios',
     icon: 'code',
-    tech: ['C# .NET', 'RabbitMQ', 'Entity Framework', 'xUnit'],
+    githubUrl: 'https://github.com/brunaPrauchner/AI-AutomatedPlanning-SaveGiraffe',
+    tech: ['PDDL4J', 'Fast Downward', 'Web Planner', 'Planning Domains', 'Unity'],
   },
 ]

@@ -1,11 +1,27 @@
+import { useEffect, useState } from 'react'
 import cvPdf from '../assets/myCV-Bruna-2026.pdf'
 import roundedLogo from '../assets/rounded-logo.png'
 import { navLinks } from '../data'
 import { DownloadIcon } from './icons'
 
 export function Header() {
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const updateHeaderState = () => {
+      setIsScrolled(window.scrollY > 8)
+    }
+
+    updateHeaderState()
+    window.addEventListener('scroll', updateHeaderState, { passive: true })
+
+    return () => {
+      window.removeEventListener('scroll', updateHeaderState)
+    }
+  }, [])
+
   return (
-    <header className="site-header">
+    <header className={isScrolled ? 'site-header site-header-scrolled' : 'site-header'}>
       <a className="brand" href="#home" aria-label="Bruna Prauchner home">
         <img className="header-logo" src={roundedLogo} alt="" />
       </a>

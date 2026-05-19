@@ -20,7 +20,7 @@ function ProjectRow({ project }: { project: FeaturedProject }) {
 
       <a
         className="project-github-link"
-        href="https://github.com/brunaPrauchner"
+        href={project.githubUrl}
         target="_blank"
         rel="noreferrer"
         aria-label={`${project.title} on GitHub`}

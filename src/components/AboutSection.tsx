@@ -15,8 +15,7 @@ export function AboutSection() {
           <div className="about-copy">
             <SectionHeading>ABOUT ME</SectionHeading>
             <p>
-              I’m a computer scientist with a passion for backend development,
-              APIs and system design.
+              I’m a computer scientist and AWS Certified Solutions Architect focused on backend development, AI, and scalable system design.
             </p>
             <p>
               I’m always curious, love solving problems and enjoy turning ideas

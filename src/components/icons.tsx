@@ -2,6 +2,7 @@ export type IconName =
   | 'activityChart'
   | 'bolt'
   | 'chatBubble'
+  | 'chefHat'
   | 'code'
   | 'download'
   | 'envelope'
@@ -229,6 +230,29 @@ export function BoltIcon() {
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <path
         d="m13 2-8 11h6l-1 9 9-13h-6l0-7Z"
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.8"
+      />
+    </svg>
+  )
+}
+
+export function ChefHatIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        d="M6.5 15.5c-1.8-.6-3-2.2-3-4.1a4.4 4.4 0 0 1 5.8-4.2A4.8 4.8 0 0 1 18 7.6a4 4 0 0 1 .8 7.8"
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.8"
+      />
+      <path
+        d="M6.5 15.2V20h11v-4.8M8.5 18h7"
         fill="none"
         stroke="currentColor"
         strokeLinecap="round"
