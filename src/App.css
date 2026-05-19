@@ -504,21 +504,27 @@
 
 .skill-groups {
   display: grid;
-  grid-template-columns: minmax(130px, 1fr) minmax(130px, 1fr) minmax(160px, 1.15fr) minmax(150px, 1fr);
+  --skill-column-gap: clamp(30px, 3vw, 44px);
+  grid-template-columns: repeat(4, minmax(150px, 1fr));
+  align-items: start;
+  column-gap: var(--skill-column-gap);
   margin-top: 40px;
 }
 
 .skill-group {
+  position: relative;
   min-width: 0;
-  padding: 0 20px;
+  padding: 0;
 }
 
-.skill-group:first-child {
-  padding-left: 0;
-}
-
-.skill-group:not(:first-child) {
-  border-left: 1px solid rgba(119, 88, 49, 0.2);
+.skill-group:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--skill-column-gap) / -2);
+  width: 1px;
+  background: rgba(119, 88, 49, 0.2);
 }
 
 .skill-group h3 {
@@ -547,6 +553,7 @@
   color: #0b3154;
   font-size: 15px;
   font-weight: 600;
+  white-space: nowrap;
   box-shadow: 0 7px 14px rgba(169, 161, 255, 0.14) inset;
 }
 
@@ -1049,17 +1056,9 @@
   }
 
   .skill-groups {
-    grid-template-columns: repeat(4, minmax(120px, 1fr));
+    --skill-column-gap: 24px;
+    grid-template-columns: repeat(4, minmax(136px, 1fr));
     margin-top: 32px;
-  }
-
-  .skill-group {
-    padding: 0 18px;
-  }
-
-  .skill-group:nth-child(3) {
-    padding-left: 18px;
-    border-left: 1px solid rgba(119, 88, 49, 0.2);
   }
 
   .hero-section {
@@ -1249,17 +1248,13 @@
   }
 
   .skill-groups {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 24px;
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+    gap: 28px 32px;
     margin-top: 32px;
   }
 
-  .skill-group,
-  .skill-group:first-child,
-  .skill-group:nth-child(3),
-  .skill-group:not(:first-child) {
-    padding: 0;
-    border-left: 0;
+  .skill-group:not(:first-child)::before {
+    display: none;
   }
 
   .hero-section h1 {
@@ -1485,13 +1480,6 @@
   .skill-groups {
     grid-template-columns: 1fr;
     gap: 28px;
-  }
-
-  .skill-group,
-  .skill-group:first-child,
-  .skill-group:nth-child(3) {
-    padding: 0;
-    border-left: 0;
   }
 
   .skill-group h3 {
